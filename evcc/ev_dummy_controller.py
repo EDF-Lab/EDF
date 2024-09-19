@@ -97,7 +97,7 @@ class EVEmulator(DcEVDataModel):
     evsemaximum_discharge_power: Optional[DcRationalNumberType] = DcRationalNumberType(0, 0)
     _evsemaximum_discharge_power: Optional[DcRationalNumberType] = DcRationalNumberType(0, 0)
     evsemaximum_charge_power: Optional[DcRationalNumberType] = DcRationalNumberType(0, 0)
-    _evsemaximum_discharge_power: Optional[DcRationalNumberType] = DcRationalNumberType(0, 0)
+    _evsemaximum_charge_power: Optional[DcRationalNumberType] = DcRationalNumberType(0, 0)
     evmaximum_discharge_power: Optional[DcRationalNumberType] = DcRationalNumberType(0, 0)
     _evmaximum_discharge_power: Optional[DcRationalNumberType] = DcRationalNumberType(0, 0)
     evmaximum_charge_power: Optional[DcRationalNumberType] = DcRationalNumberType(0, 0)
